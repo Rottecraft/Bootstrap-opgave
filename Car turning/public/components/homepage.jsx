@@ -22,16 +22,23 @@ export default function Homepage(){
             <body>
                 <section className="hero-section">
                      <h1>UNLOCK BILENS FULDE POTENTIALE</h1>
-                     <h2> Optimering af benzin- og dieselmotorer</h2>
+                     <h3> Optimering af benzin- og dieselmotorer</h3>
+                     <h3>på Falster</h3>
                      <button>Kontakt</button>
                      <button>Find din bil</button>
                      <button>Tilbud</button>
                 </section>
-               
-                
-
             </body>
-
+            <footer>
+                <div> 
+                    <h5>Åbningstider:</h5>
+                    <h5>Hverdage: 8-16</h5>
+                </div>
+                <div className="contact-form">
+                    <h5>Tlf: 22 23 24 25</h5>
+                    <h5><a href="mailto:madschiptuning@mads.com">madschiptuning@mads.com</a></h5>
+                </div>
+            </footer>
         </>
 
     )
